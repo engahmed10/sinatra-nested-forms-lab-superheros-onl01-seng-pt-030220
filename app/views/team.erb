@@ -1,2 +1,8 @@
 
 <h1><%=@team.name%></h1>
+
+<h1><%@heros.each do |i|%></h1>
+    <p> <%=i.name%></lp>
+    <p> <%=i.power%></p>
+    <p> <%=i.bio%></p>
+    <p> <%end%></p>
